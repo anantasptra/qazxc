@@ -1,0 +1,26 @@
+# Database files
+learning_media.db
+*.db
+*.sqlite
+*.sqlite3
+learning_media.db-journal
+learning_media.db-wal
+learning_media.db-shm
+
+# Environment & Secrets
+.env
+.env.*
+secrets.json
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
